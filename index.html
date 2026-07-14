@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Animais Fantásticos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projeto Animais Fantásticos com manipulação de DOM - JavaScript ES6+">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.className += ' js';</script>
+</head>
+
+<body>
+  <nav class="menu js-menu">
+    <ul>
+      <li><a href="#animais">Animais</a></li>
+      <li><a href="#curiosidades">Curiosidades</a></li>
+      <li><a href="#contato">Contato</a></li>
+      <li><a href="https://lucassdias23.github.io/">Login →</a></li>
+    </ul>
+  </nav>
+  <section class="grid-section animais js-scroll" id="animais">
+    <h1 class="titulo">Animais Fantásticos</h1>
+    <ul class="animais-lista js-tabmenu">
+      <li>
+        <img src="img/imagem1.jpg" alt="Raposa">
+      </li>
+      <li>
+        <img src="img/imagem2.jpg" alt="Esquilo">
+      </li>
+      <li>
+        <img src="img/imagem3.jpg" alt="Urso">
+      </li>
+      <li>
+        <img src="img/imagem4.jpg" alt="Lobo">
+      </li>
+      <li>
+        <img src="img/imagem5.jpg" alt="Macaco">
+      </li>
+      <li>
+        <img src="img/imagem6.jpg" alt="Leão">
+      </li>
+    </ul>
+
+    <div class="animais-descricao js-tabcontent">
+      <section>
+        <h2>Raposa</h2>
+        <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de porte médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</p>
+        <p>De cerca de 40 espécies reconhecidas como raposas, somente 12 pertencem ao gênero Vulpes das "raposas verdadeiras", do qual a raposa vermelha é a mais comum.</p>
+        <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos felídeos.</p>
+      </section>
+      <section>
+        <h2>Esquilo</h2>
+        <p>Os esquilos são pequenos mamíferos roedores pertencentes à família Sciuridae, conhecidos por sua agilidade, cauda felpuda e hábito de enterrar sementes. Eles habitam quase todos os continentes, adaptando-se facilmente a florestas, parques urbanos e zonas rurais.</p>
+        <p>Com uma dieta baseada principalmente em nozes, frutas e brotos, esses animais desempenham um papel ecológico fundamental no reflorestamento, já que muitas das sementes que eles esquecem de enterrar acabam germinando e dando origem a novas árvores.</p>
+      </section>
+      <section>
+        <h2>Urso</h2>
+        <p>Os ursos são grandes mamíferos carnívoros (embora a maioria seja onívora) pertencentes à família Ursidae. Conhecidos por sua força impressionante, pelagem espessa e excelente olfato, eles habitam diversos cenários, desde as florestas tropicais até as regiões polares.</p>
+        <p>Um de seus comportamentos mais fascinantes é a hibernação (ou letargia de inverno), período no qual entram em um sono profundo para poupar energia durante os meses mais frios do ano.</p>
+      </section>
+      <section>
+        <h2>Lobo</h2>
+        <p>O lobo é um mamífero carnívoro da família dos canídeos, famoso por sua inteligência, estrutura social complexa e uivos característicos. Eles são predadores de topo que vivem e caçam em alcateias altamente organizadas, lideradas por um par reprodutor.</p>
+        <p>Sua presença nos ecossistemas é vital para manter o equilíbrio ambiental, controlando a população de grandes herbívoros.</p>
+      </section>
+      <section>
+        <h2>Macaco</h2>
+        <p>Os macacos são primatas ágeis e altamente inteligentes, que se destacam por sua capacidade de aprendizado, uso de ferramentas e comportamento social complexo.</p>
+        <p>Encontrados principalmente em regiões tropicais, a grande maioria possui hábitos arborícolas, utilizando suas mãos e, em algumas espécies, a cauda preênsil para se locomover entre as árvores com extrema facilidade.</p>
+      </section>
+      <section>
+        <h2>Leão</h2>
+        <p>Conhecido popularmente como o "rei da selva", o leão é um dos maiores felinos do mundo e o único que vive em grupos sociais verdadeiros, chamados de orgulhos ou coalizões.</p>
+        <p>Originários principalmente das savanas africanas, esses predadores imponentes destacam-se pela juba imponente dos machos e pelo trabalho em equipe das leoas, que realizam a maior parte das caçadas do grupo.</p>
+      </section>
+    </div>
+  </section>
+
+
+  <section class="grid-section curiosidades js-scroll" id="curiosidades">
+    <h1 class="titulo">Curiosidades</h1>
+    <dl class="curiosidades-lista js-accordion">
+      <dt>Qual a idade dos animais?</dt>
+      <dd>
+        <p>A expectativa de vida média geral, somando e equilibrando o tempo de vida de todos esses animais na natureza, fica em torno de 12 a 15 anos.</p>
+      </dd>
+
+      <dt>Eles são fantásticos?</dt>
+      <dd>
+        <p>Juntos, esses animais representam o equilíbrio perfeito da natureza através de superpoderes biológicos únicos: enquanto o esquilo atua como um reflorestador involuntário plantando milhões de árvores, o lobo e o leão demonstram a força máxima do trabalho em equipe e da estrutura social. Na outra ponta, a raposa se destaca como um dos maiores símbolos de adaptação urbana e selvagem do planeta, o urso desafia a medicina com os mistérios da sua hibernação e o macaco impressiona pela capacidade cultural de criar e passar o uso de ferramentas para as próximas gerações.</p>
+      </dd>
+
+      <dt>Quais as diferenças?</dt>
+      <dd>
+        <p>Raposa: É pequena, ágil e conhecida por sua pelagem avermelhada e cauda peluda. É um predador solitário e oportunista, famoso por sua astúcia e capacidade de se adaptar a ambientes urbanos e selvagens.</p>
+
+        <p>Esquilo: Pequeno roedor de movimentos rápidos, com dentes fortes e uma cauda felpuda que ajuda no equilíbrio. Diferente dos outros carnívoros ou grandes mamíferos da lista, o esquilo passa a maior parte do tempo em árvores colhendo sementes e nozes.</p>
+
+        <p>Urso: Mamífero de grande porte, com pelagem espessa, garras não retráteis e uma força física impressionante. É um animal majoritariamente solitário e onívoro que, dependendo da espécie, passa por longos períodos de hibernação durante o inverno.</p>
+
+        <p>Lobo: Canídeo de médio a grande porte, visualmente semelhante a um cão doméstico selvagem, com pernas longas e orelhas erguidas. Ao contrário da raposa (que caça sozinha), o lobo é um animal extremamente social que vive, se comunica e caça em alcateias organizadas.</p>
+
+        <p>Macaco: Primata ágil, geralmente dotado de cauda preênsil e mãos/pés adaptados para agarrar galhos. Destaca-se pelo altíssimo nível de inteligência, comportamento social complexo e capacidade de usar ferramentas na natureza.</p>
+
+        <p>Leão: Grande felino de pelagem dourada; os machos são facilmente reconhecidos por uma juba imponente. Conhecido como o "rei da selva", é o único felino verdadeiramente social, vivendo em bandos dominados por fêmeas caçadoras.</p>
+      </dd>
+
+      <dt>Como protegê-los?</dt>
+      <dd>
+        <p>Proteger esses animais fantásticos depende diretamente da preservação dos seus habitats naturais. Podemos fazer a nossa parte apoiando projetos de conservação de florestas, combatendo o comércio ilegal de animais silvestres e reduzindo nossa pegada de carbono para frear as mudanças climáticas que afetam suas fontes de alimento e abrigo. Além disso, o respeito aos limites da vida selvagem — evitando alimentar ou aproximar-se de animais em áreas nativas — garante que eles continuem cumprindo seus papéis vitais no ecossistema.</p>
+      </dd>
+    </dl>
+  </section>
+
+  <section class="grid-section contato js-scroll" id="contato">
+    <h1 class="titulo">Contato</h1>
+    <div class="mapa">
+      <img src="/img/mapa.png" alt="Mapa">
+    </div>
+    <ul class="dados">
+      <li><a href="mailto:lucass.diass23@gmail.com">contato@animaisfantasticos.org</a></li>
+      <li>+55 (11) 9.9999-9999</li>
+      <li>Rua São Bento, 81</li>
+      <li>Sé - Centro Histórico de São Paulo - SP</li>
+      <li>Doe bitcoin para nos ajudar.</li>
+      <li>Horário de Funcionamento: Seg à Sex. das 8 às 18hs</li>
+    </ul>
+
+  </section>
+
+  <footer class="copy">
+    <p>Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

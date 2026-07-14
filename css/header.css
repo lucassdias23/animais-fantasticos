@@ -1,0 +1,30 @@
+.menu {
+  grid-column: 3 / 5;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background: var(--elements-3);
+}
+
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+  margin-right: 10px;
+  color: var(--background-3);
+  text-decoration: none;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 0.1em;
+  transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+  color: var(--elements-3a);
+}
