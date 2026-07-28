@@ -33,10 +33,10 @@ Mesmo durante o desenvolvimento, a aplicação é construída seguindo rigorosas
 
 - [x] Navegação por Tabs e Accordion List
 - [x] Scroll Suave e Animação ao Scroll
-- [x] Modal de Login e Tooltips dinâmicos
-- [x] Dropdown Menu e Menu Mobile
-- [x] Animação dos Números e Fetch de Dados via API
-- [x] Refatoração de funções para Classes (ES6)
+- [ ] Modal de Login e Tooltips dinâmicos
+- [ ] Dropdown Menu e Menu Mobile
+- [ ] Animação dos Números e Fetch de Dados via API
+- [ ] Refatoração de funções para Classes (ES6)
 - [ ] Implementação de testes / ajustes finais de acessibilidade
 - [ ] Finalização do bundle de produção / otimização de build
 
