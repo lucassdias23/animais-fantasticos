@@ -13,9 +13,9 @@ O **Animais Fantásticos** é uma aplicação web interativa focada no estudo ap
 Mesmo durante o desenvolvimento, a aplicação é construída seguindo rigorosas métricas de qualidade e otimização:
 
 - **Performance**
-- **Acessibilidade:**
-- **Melhores Práticas:**
-- **SEO:**
+- **Acessibilidade**
+- **Melhores Práticas**
+- **SEO**
 
 ---
 
