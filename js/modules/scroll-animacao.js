@@ -1,5 +1,4 @@
-export default initAnimacaoScroll();
-function initAnimacaoScroll() {
+export default function initAnimacaoScroll() {
   const sections = document.querySelectorAll('[data-anime="scroll"]');
 
   if (sections.length) {
