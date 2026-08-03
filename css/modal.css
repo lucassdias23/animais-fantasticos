@@ -94,3 +94,9 @@
 .modal button[type="submit"]:hover {
   background: var(--elements-3);
 }
+
+@media (max-width: 400px) {
+  .modal {
+    min-width: 200px;
+  }
+}
