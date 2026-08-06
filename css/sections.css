@@ -157,8 +157,29 @@
   height: 10px;
   margin-right: 10px;
   background: var(--elements-3a);
-
   border-radius: 1.5px;
+}
+
+[data-semana]::after {
+  display: inline-block;
+  content: "";
+  width: 6px;
+  height: 6px;
+  background: #e54;
+  border-radius: 50%;
+  margin-left: 4px;
+  border: 2px solid var(--background-2);
+}
+
+[data-semana].aberto::after {
+  background: #3f4;
+}
+
+.btc-preco {
+  background: #3f4;
+  padding: 0.2rem 0.5rem;
+  font-weight: 600;
+  border-radius: 2px;
 }
 
 .copy {
