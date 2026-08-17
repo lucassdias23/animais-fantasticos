@@ -32,12 +32,14 @@
 
 .modal {
   background: var(--background-3);
-  min-width: 300px;
+  max-width: 600px;
+  width: 80vw;
   padding: 40px;
   border-radius: 10px;
   border: 10px solid var(--elements-3);
   box-shadow: 0 0 0 10px var(--background-3);
   position: relative;
+  box-sizing: border-box;
 }
 
 .fechar {
@@ -49,16 +51,16 @@
   right: -30px;
   position: absolute;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
-  background: var(--elements-3a);
+  background: var(--elements-3a) url("../img/fechar.svg") no-repeat center
+    center;
   color: var(--background-3);
-  font-size: 1.2rem;
-  font-family: "IBM Plex Mono", monospace;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .fechar:hover {
-  background: rgba(96, 108, 56, 1);
+  background: rgba(96, 108, 56, 1) url("../img/fechar.svg") no-repeat center
+    center;
 }
 
 .modal label {
@@ -73,6 +75,7 @@
   width: 100%;
   padding: 0.7rem 0.5rem;
   box-sizing: border-box;
+  border: 2px solid var(--background-2);
 }
 
 .modal button[type="submit"] {
